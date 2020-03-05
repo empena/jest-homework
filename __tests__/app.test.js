@@ -41,7 +41,7 @@ describe('Testing allNumbersGreaterThanZero', () => {
 })
 
 describe('Testing someNumbersAreOdd', () => {
-  test('return true if some item greater than 0', () => {
+  test('return true if some one or more items odd', () => {
     expect(someNumbersAreOdd([1,2,3,4])).toEqual(true)
   })
 })

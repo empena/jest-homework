@@ -51,12 +51,12 @@ export const allNumbersGreaterThanZero = (arr) => {
   })
 }
 
-// // return true if some item greater than 0
+// return true if some one or more items odd
 // someNumbersAreOdd(numberArray) // => true; use some
 
 export const someNumbersAreOdd = (arr) => {
-  return arr.some((element, index, array) => {
-    return element > 0
+  return arr.every((element, index, array) => {
+    return element % 1 === 0
   })
 }
 
