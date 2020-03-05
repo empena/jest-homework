@@ -8,9 +8,6 @@ import {
   evensOnlyAndDoubleArray,
   findItem,
   sortArray,
-  // methods,
-  // methods,
-  // methods,
 } from '../app'
 
 describe('Testing originalArray', () => {
@@ -55,14 +52,14 @@ describe('Testing evensOnlyAndDoubleArray', () => {
   })
 })
 
-// describe('Testing findItem', () => {
-//   test('find an item method return \'not found\' if not found', () => {
-//     expect(findItem([1,2,3,4], 1)).toEqual(1)
-//   })
-// })
+describe('Testing findItem', () => {
+  test('find an item method return \'not found\' if not found', () => {
+    expect(findItem([1,2,3,4], 1)).toEqual(1)
+  })
+})
 
-// describe('Testing sortArray', () => {
-//   test('sort array desc order', () => {
-//     expect(sortArray([1,2,3,4])).toEqual([4,3,2,1])
-//   })
-// })
+describe('Testing sortArray', () => {
+  test('sort array desc order', () => {
+    expect(sortArray([1,2,3,4])).toEqual([4,3,2,1])
+  })
+})

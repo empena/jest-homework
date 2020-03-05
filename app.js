@@ -13,6 +13,8 @@ export const originalArray = (arr) => {
 
 // // ARRAY ITERATOR METHODS
 // let numberArray = [1, 2, 3, 4]
+
+
 // // return array with double values in array
 // doubleArray(numberArray) // => [2,4,6,8];  hint use map 
 
@@ -70,13 +72,19 @@ export const evensOnlyAndDoubleArray = (arr) => {
 // find an item method return 'not found' if not found
 // findItem(numberArray, 1) //=> 1
 
-
+export const findItem = (arr) => {
+  return arr.find((element) => {
+    return element < 5
+  })
+}
 
 // sort array desc order
 // sortArray(numberArray) //=> [4,3,2,1] *desc*
 
 export const sortArray = (arr) => {
-  return arr.sort((a,b)(return a-b )
+  return arr.reverse(num => {
+    return num
+  })
 }
 
 
